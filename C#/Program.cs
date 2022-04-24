@@ -1,6 +1,7 @@
 ﻿using System;
 
 using Singleton;
+using ObserverPattern;
 
 namespace c_
 {
@@ -28,6 +29,22 @@ namespace c_
             {
                 Console.WriteLine("Singleton Failed... Vars point to different instances");
             }
+
+            #endregion
+
+            #region Observer
+                Console.WriteLine("\n================================\nObserver Design Pattern\n================================\n");
+
+                ConcreteSubject subject = new ConcreteSubject();
+
+                ConcreteObserver observerOne = new ConcreteObserver("observerOne", subject);
+                ConcreteObserver observerTwo = new ConcreteObserver("observerTwo", subject);
+
+                subject.notifyObservers();
+
+                observerOne.stop();
+
+                subject.notifyObservers();
 
             #endregion
         }
