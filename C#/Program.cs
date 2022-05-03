@@ -47,6 +47,25 @@ namespace c_
                 subject.notifyObservers();
 
             #endregion
+
+             #region Decorator
+                Console.WriteLine("\n================================\nDecorator Design Pattern\n================================\n");
+
+                Console.WriteLine("Creating base class");
+                DecoratorPattern.BaseComponent decoratorComponent = new DecoratorPattern.ConcreteComponent("compy");
+
+                Console.WriteLine("component name: " + decoratorComponent.getName());
+                Console.WriteLine("component value: {0}", decoratorComponent.getValue());
+                Console.WriteLine("");
+
+                Console.WriteLine("Adding decorator to base class");
+                decoratorComponent = new DecoratorPattern.ConcreteDecorator("decorated", decoratorComponent);
+
+                Console.WriteLine("component name: " +  decoratorComponent.getName());
+                Console.WriteLine("component value: {0}", decoratorComponent.getValue());
+                Console.WriteLine("");                
+
+            #endregion
         }
     }
 }

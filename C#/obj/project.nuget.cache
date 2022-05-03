@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FJvYCIqd7p0hAhgZuqUB/cGYSBPyZKTODywT/4XeHAdtM8QDtq4NGZHY1Av85HPkmOoLPtRbaJL5iMJr86+bUA==",
+  "dgSpecHash": "ezu7Q5X584+bV3zdj1mzP6dLXSftQ5UX/QYtxBTf0YpV4ypKSDjlxVAddvhbOvGSR3psrRWkxTXawsOPLOtK7w==",
   "success": true,
-  "projectFilePath": "D:\\Coding\\DesignPatternLearning\\c#\\c#.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Coding\\DesignPatternLearning\\C#\\c#.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hatte\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512"
+  ],
   "logs": []
 }
